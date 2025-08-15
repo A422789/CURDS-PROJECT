@@ -1,0 +1,103 @@
+body{
+    height: 500vh;
+    letter-spacing: 1px;
+    height: 100%;
+    background-color: rgb(48, 32, 62);
+}
+
+.hide{
+    display: none;
+}
+.continer{
+background-color: #d7d7d7;
+width: 90vw;
+height: 100%;
+margin: 0 auto;
+text-align: center;
+background-color: rgb(48, 32, 62);
+border-radius: 20px;
+padding: 10px;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+input{
+    width: 90%;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(100, 41, 124) ;
+     height: 25px;
+     padding-left: 5px;
+     color: white;
+     padding: 5px;
+       letter-spacing: 1px;
+}
+input::placeholder{
+    color: white;
+}
+.Total{
+  
+   
+    color: white;
+    border: 1px solid  gray;
+     text-align: left;
+    
+   ;
+    border-radius: 5px;
+    background-color:rgb(100, 41, 124) ;
+    
+     padding-left: 5px;
+     line-height: 35px;
+}
+.collection{
+    display: flex;
+    width: 90%;
+    margin-left: 5vw;
+}
+button{
+    background-color: rgb(49, 20, 76);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 90%;
+    height: 35px;
+    margin: 5px;
+    cursor: pointer;
+      letter-spacing: 1px;
+    
+}
+.btn{
+    display: flex;
+    width: 90%;  
+    margin-left: 5vw;
+}
+table{
+    border-collapse:collapse;
+    border: 1px solid rgba(128, 128, 128, 0.393);
+    margin: 10px auto;
+    color: white;
+    font-family: sans-serif;
+    width: 90%;
+    min-width: 900px;
+     min-width: 800px; 
+ 
+
+  width: 100%; 
+   
+}
+th{
+    border-bottom: 1px solid  white;
+    padding: 1%;
+}
+
+.parent {
+  overflow-x: auto;
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+ table{
+    font-size: 10px;
+ }
+}

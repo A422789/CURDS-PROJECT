@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products-project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="continer">
+        <h1>Cruds prject</h1>
+       <input type="text" placeholder="tittle"  id="tittle">
+       <div class="collection">
+              <input type="number" placeholder="price" id="price" onkeyup="totalprice()" required>
+              <input type="number" placeholder="taxes" id="taxes" onkeyup="totalprice()" >
+              <input type="number" placeholder="ads" id="ads" onkeyup="totalprice()" >
+              <input type="number" placeholder="discount" id="discount" onkeyup="totalprice()" >
+              <span class="Total" >Total: <span id="total"></span></span>
+       </div>
+       <input type="number" placeholder="count"  id="count" required>
+       <input type="text" placeholder="category"  id="category" required>
+       <button id="submit">Creat</button>
+       <input id="search" class="hide" type="text"  placeholder="search" required>
+       <div class="btn">
+              <button id="Search by Title" onclick="searchdata(this.id)">Search by Title</button>
+              <button id="Search by category" onclick="searchdata(this.id)">Search by category</button>
+        </div>
+         <div id="del"></div>
+         <div class="parent"></div>
+        <table>
+            <thead>
+               <tr>
+                <th>ID</th>
+                 <th>TITLE</th>
+                  <th>PRICE</th>
+                   <th>TAXES</th>
+                    <th>ADS</th>
+                     <th>DISCOUNT</th>
+                      <th>TOTAL</th>
+                       <th>CATEGORY</th>
+                        <th>UPDATE</th>
+                         <th>DELET</th>
+                         </tr>
+            </thead>
+            <tbody id="table">
+                   <!--daynmicly fill-->
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
